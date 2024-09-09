@@ -33,4 +33,4 @@ The Mathematica directory houses a mathematica notebook named Manuscript.nb whic
 
 This research was partially funded by the Austrian Science Fund (FWF) [FWF P-32896B] and DOC Fellowships of the Austrian Academy of Sciences: grants 26380 (O. Olusanya) and 26293 (K. Khudiakova).
 
-We thank Nick Barton for useful comments on the project.
+We thank Prof. Nick Barton for useful comments on the project.
