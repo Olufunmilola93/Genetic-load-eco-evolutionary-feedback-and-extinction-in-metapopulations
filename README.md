@@ -4,11 +4,9 @@ ___
 ### Project Abstract
 ___
 
-Fragmented landscapes pose a significant threat to the persistence of species as they are highly susceptible to heightened risk of extinction due to the combined effects of genetic and demographic factors such as genetic drift and demographic stochasticity. In this project, we explore the intricate interplay between genetic load and extinction risk within metapopulations with a focus on understanding the impact of eco-evolutionary feedback mechanisms. We distinguish between two models of selection: soft selection, characterised by subpopulations maintaining carrying capacity despite load, and hard selection, where load can significantly affect population size. Within the soft selection framework, we investigate the impact of gene flow on genetic load at a single locus, while also considering the effect of selection strength and dominance coefficient. We subsequently build on this to examine how gene flow influences both population size and load under hard selection as well as identify critical thresholds for metapopulation persistence. Our analysis employs the diffusion, semi-deterministic and effective migration approximations. Our findings reveal that under soft selection, even modest levels of migration can significantly alleviate the burden of load. In sharp contrast, with hard selection, a much higher degree of gene flow is required to mitigate load and prevent the collapse of the metapopulation. Overall, this study sheds light into the crucial role migration plays in shaping the dynamics of genetic load and extinction risk in fragmented landscapes, offering valuable insights for conservation strategies and the preservation of diversity in a changing world.
-
+Habitat fragmentation poses a significant threat to the persistence of populations, by generating increased genetic drift (and thus higher genetic load) as well as demographic stochasticity. Higher load causes population numbers to decline, which reduces the efficiency of selection and further increases load, resulting in a positive feedback which may drive entire populations to extinction. Here, we investigate this eco-evolutionary feedback in a metapopulation, focusing on how extinction thresholds depend on the total rate of deleterious mutations and their selection and dominance coefficients, the carrying capacity and growth rate of subpopulations, and the extent of migration between them. We first study the determinants of load under soft selection, where population sizes are constant, and then build upon this to analyse hard selection, where population sizes and load co-evolve. We show that in contrast to soft selection, high levels of migration are required to mitigate load and prevent extinction when selection is hard, with critical migration thresholds for metapopulation persistence increasing sharply with increasing ‘hardness’ of selection. Our analysis employs a combination of simulations and analytical approximations, allowing for a more comprehensive understanding of the factors influencing genetic load and extinction in fragmented landscapes.
 
 <code style="color : blue"> This repository is the official implementation of the project described above.</code> 
-
 
 ### Layout
 
@@ -18,10 +16,12 @@ Within each subdirectory are .txt files named based on other specific parameters
 
 The Fortran codes were written by coauthor Himani Sachdeva (himani.sachdeva@univie.ac.at).
 
-
 The Mathematica directory houses a mathematica notebook named Manuscript.nb which consists of the Mathematica codes for the analytical work done in the project. The Mathematica code was written by Olusanya Oluwafunmilola (funmilola@aims.ac.za).
 
+### Software versions
 
+* Mathematica version 12.1 or later
+* GNU Fortran 14.1.0
 
 ### Project Authors
 
@@ -29,4 +29,8 @@ The Mathematica directory houses a mathematica notebook named Manuscript.nb whic
 * Ksenia Khudiakova, Institute of Science and Technology, Austria (kseniia.khudiakova@ist.ac.at)
 * Himani Sachdeva, Department of Mathematics, University of Vienna, Vienna 1090, Austria (himani.sachdeva@univie.ac.at)
 
+### Acknowledgements
 
+This research was partially funded by the Austrian Science Fund (FWF) [FWF P-32896B] and DOC Fellowships of the Austrian Academy of Sciences: grants 26380 (O. Olusanya) and 26293 (K. Khudiakova).
+
+We thank Nick Barton for useful comments on the project.
