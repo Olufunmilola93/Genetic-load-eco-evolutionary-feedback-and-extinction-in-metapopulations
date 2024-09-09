@@ -1,8 +1,13 @@
 ## Genetic load, eco-evolutionary feedback and extinction in metapopulations
 
-___
+### Project Authors and contact details
+
+* Oluwafunmilola Olusanya (funmilola@aims.ac.za)
+* Ksenia Khudiakova, Institute of Science and Technology, Austria (kseniia.khudiakova@ist.ac.at)
+* Himani Sachdeva, Department of Mathematics, University of Vienna, Vienna 1090, Austria (himani.sachdeva@univie.ac.at)
+
+
 ### Project Abstract
-___
 
 Habitat fragmentation poses a significant threat to the persistence of populations, by generating increased genetic drift (and thus higher genetic load) as well as demographic stochasticity. Higher load causes population numbers to decline, which reduces the efficiency of selection and further increases load, resulting in a positive feedback which may drive entire populations to extinction. Here, we investigate this eco-evolutionary feedback in a metapopulation, focusing on how extinction thresholds depend on the total rate of deleterious mutations and their selection and dominance coefficients, the carrying capacity and growth rate of subpopulations, and the extent of migration between them. We first study the determinants of load under soft selection, where population sizes are constant, and then build upon this to analyse hard selection, where population sizes and load co-evolve. We show that in contrast to soft selection, high levels of migration are required to mitigate load and prevent extinction when selection is hard, with critical migration thresholds for metapopulation persistence increasing sharply with increasing ‘hardness’ of selection. Our analysis employs a combination of simulations and analytical approximations, allowing for a more comprehensive understanding of the factors influencing genetic load and extinction in fragmented landscapes.
 
@@ -22,12 +27,6 @@ The Mathematica directory houses a mathematica notebook named Manuscript.nb whic
 
 * Mathematica version 12.1 or later
 * GNU Fortran 14.1.0
-
-### Project Authors
-
-* Oluwafunmilola Olusanya (funmilola@aims.ac.za)
-* Ksenia Khudiakova, Institute of Science and Technology, Austria (kseniia.khudiakova@ist.ac.at)
-* Himani Sachdeva, Department of Mathematics, University of Vienna, Vienna 1090, Austria (himani.sachdeva@univie.ac.at)
 
 ### Acknowledgements
 
