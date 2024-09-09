@@ -211,14 +211,14 @@
          enddo
          enddo
        
- 19   open(41,file='L6000_dom0.02_Km02_Ks20_LU025_statsB.txt')
+ 19   open(41,file='L15000_dom0.02_Km02_Ks20_LU025_statsB.txt')
       do i=1,tsteps/20
       write(41,9) i*20,freq_hab1(i),gdiv_hab1(i),pop_hab1(i)/K    ! generation number; allele freq and E[pq] (avgd across loci and islands); pop size / carrying ca. averaged across islands. 
  9    Format(I8,1X,F15.9,1X,F15.9,1X,F15.9)
       enddo
       close(41)
 
-      open(41,file='L6000_dom0.02_Km02_Ks20_LU025_tseriesB.txt')
+      open(41,file='L15000_dom0.02_Km02_Ks20_LU025_tseriesB.txt')
       do i=1,tsteps/20   ! pop size in deme 10,20,30,..100  vs. generation.
       write(41,8) i*20,(tseriesN(k,i),k=1,10)
  8    Format(I8,1X,I4,1X,I4,1X,I4,1X,I4,1X,I4,1X,I4,1X,I4,1X,I4,
