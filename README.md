@@ -20,9 +20,3 @@ The Mathematica directory houses a mathematica notebook named Manuscript.nb whic
 
 * Mathematica version 12.1 or later
 * GNU Fortran 14.1.0
-
-### Acknowledgements
-
-This research was partially funded by the Austrian Science Fund (FWF) [FWF P-32896B] and DOC Fellowships of the Austrian Academy of Sciences: grants 26380 (O. Olusanya) and 26293 (K. Khudiakova).
-
-We thank Prof. Nick Barton for useful comments on the project.
